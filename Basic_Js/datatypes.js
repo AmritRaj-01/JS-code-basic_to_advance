@@ -18,3 +18,16 @@ let number ; // undefined
 // symbol -> for finding uniqueness
 
 console.log(typeof number);
+
+
+         // NOn premitive type 
+// Array
+// Object 
+// Function
+
+
+/* *************  Stack  AND Heap  Memory ************ */
+// stack (premitive)  - change in copy 
+//  Heap (Non-primitive) - reference change in original
+
+
