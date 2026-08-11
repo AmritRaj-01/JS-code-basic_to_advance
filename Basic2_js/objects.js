@@ -109,3 +109,24 @@ const users=[
 
 // console.log(tinderUser.hasOwnProperty('isloggedIn'));  // checking property is available or not 
 
+
+
+
+    //  Destructuring 
+const course={
+  couresename:"Js lectures",
+  price:'00.00',
+  courseowner:"Amrit"
+}
+
+const{courseowner : name}=course
+// console.log(courseowner);
+console.log(name);    // giving another small name to courseowner ->name
+
+// const navbar=({company})=>{  
+// // this is  also used in react and  {company}  is caled destructuring 
+// }
+// navbar(company="amyinfo")
+
+
+
