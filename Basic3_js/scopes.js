@@ -13,4 +13,37 @@ if(true){      // in this if block global variable are used without any error
 // console.log(num1);
 // console.log(num2);
 
+function one() {
+  const username="Amrit"
+  function two(){
+    const website="YT"
+    console.log(username);
+  }
+  two()
+}
+
+if(true){
+  const username="Amrit";
+  if(username==="Amrit"){
+    const web=" YT.com"
+    // console.log(username+web);
+  }
+  // console.log(web);
+  
+}
+// console.log(username);    // throw error  because variable has no scope 
+
+
+//  if we call a function before initialize it it will execute but if we create a function and store that in a variable and then after call the function before initialization(addtwo function) then it throw error
+addone(5);
+function addone(num){
+  return num +1;
+}
+
+// addtwo(5);
+const addtwo = function(num){
+  return num+2;
+}
+addtwo(5);
+
 
